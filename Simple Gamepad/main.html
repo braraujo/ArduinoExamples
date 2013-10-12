@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="blink.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <label>
+      Port:
+      <select id="port-picker"></select>
+    </label>
+
+    <label>
+      Status:
+      <span id="status">Loading</span>
+    </label>
+
+    <label>
+      Ligar LED:
+      <input id="position-input" type="checkbox" >
+    </label>
+    <label>
+      <button id="btnIniciar">Iniciar</button>
+    </label>
+
+    <canvas id="drawRegion" width="300" height="300"></canvas>
+    <img src="gamePad.png" id="gamepadImg" style="display:none;"></img>
+  </div>
+
+</body>
+</html>
