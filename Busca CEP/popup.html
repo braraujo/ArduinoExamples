@@ -1,0 +1,30 @@
+<!DOCTYPE html>   
+<html lang="en">   
+<head>   
+<meta charset="utf-8">   
+<meta name="description" content="Busca CEP Chrome App">   
+<link href="css/bootstrap.css" rel="stylesheet">  
+<script src="buscaCEP.js"></script>
+</head>  
+<body>  
+	<div id="container" style="width: 300px">
+		<div class="well form-search">  
+			<label for="endereco">Endereço:</label>
+		  <input id="endereco" type="text" class="input-medium search-query">  
+		  <button type="submit" id="buscar" class="btn">Buscar</button>  
+		</div>
+
+
+		<table class="table" id="resultados" style="display:none">  
+        <thead>  
+          <tr>  
+            <th>CEP</th>  
+            <th>Endereço</th>  
+          </tr>  
+        </thead>  
+        <tbody id="tableBody">          
+        </tbody>  
+      </table>  
+</div>
+</body>  
+</html> 

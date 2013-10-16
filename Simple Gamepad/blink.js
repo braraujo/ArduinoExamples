@@ -23,7 +23,7 @@ function onRead(readInfo) {
   var value = String.fromCharCode(uint8View[0]);
   
 
-  if (value == "x") // Light on and off
+  if (value == "x") 
   {
      if(debug) 
         console.log("CMD[a]: " + readBuffer);
